@@ -30,4 +30,3 @@
 <summary>🛍️ Buy Now</summary>
 <img src="buy.jpeg" alt="Buy Now Page Preview">
 </details>
-asda
