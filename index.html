@@ -3,109 +3,57 @@
 <head>
     <title>Midas Craft</title>
 </head>
-<body>
-    <font face="Poppins, sans-serif">
-        <!-- Header Section -->
-        <header>
-            <table width="100%" bgcolor="#ffe500" cellpadding="10">
-                <tr>
-                    <td align="left">
-                        <a href="index.html">
-                            <img src="logo.svg" alt="Home" width="90" height="50">
-                        </a>
-                    </td>
-                    <td align="right">
-                        <a href="about.html">
-                            <font face="Poppins, sans-serif" color="black" size="+2">About Us</font>
-                        </a>&nbsp;&nbsp;
-                        <a href="collections.html">
-                            <font face="Poppins, sans-serif" color="black" size="+2">Collections</font>
-                        </a>&nbsp;&nbsp;
-                        <a href="reviews.html">
-                            <font face="Poppins, sans-serif" color="black" size="+2">Reviews</font>
-                        </a>&nbsp;&nbsp;
-                        <a href="buy.html">
-                            <font face="Poppins, sans-serif" color="black" size="+2"><b>Buy Now</b></font>
-                        </a>&nbsp;&nbsp;
-                    </td>
-                </tr>
-            </table>
-        </header>
-
-        <!-- Pembukaan Section -->
-        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+<body bgcolor="#000000" text="white">
+    <!-- Header Section -->
+    <header>
+        <table width="100%" bgcolor="white" cellpadding="10">
             <tr>
-                <td align="center">
-                    <img src="landing.svg" alt="Landing Image" width="100%" height="auto">
+                <td align="left">
+                    <a href="index.html">
+                        <img src="logo.svg" alt="Home" width="108" height="60">
+                    </a>
+                </td>
+                <td align="right">
+                    <a href="about.html"><font face="Poppins, sans-serif" color="black" size="+2">About Us</font></a>&nbsp;&nbsp;
+                    <a href="collections.html"><font face="Poppins, sans-serif" color="black" size="+2">Collections</font></a>&nbsp;&nbsp;
+                    <a href="reviews.html"><font face="Poppins, sans-serif" color="black" size="+2">Reviews</font></a>&nbsp;&nbsp;
+                    <a href="buy.html"><font face="Poppins, sans-serif" color="black" size="+2"><b>Buy Now</b></font></a>&nbsp;&nbsp;
                 </td>
             </tr>
         </table>
+    </header>
 
-        <!-- Reason Section -->
-        <center>
-            <font face="Poppins, sans-serif">
-                <h1>
-                    <font size="+4">Here is the reason why you should buy gold from us!</font>
-                </h1>
-                <br>
-                <p>
-                    <font size="+1">
-                        Invest in assets, not liabilities - our gold pieces are both artistic treasures and valuable investments.<br>
-                        Each handcrafted creation combines timeless beauty with the security of gold's ever-appreciating value.<br>
-                        With gold prices consistently rising over time, your investment grows while you enjoy exquisite craftsmanship.<br>
-                        <br>
-                        To prove our point, we will show you the realtime gold price chart. Here it is:
-                    </font>
-                </p>
-            </font>
-        </center>
-    </font>
-
-    <!-- TradingView Chart Section -->
+    <!-- Pembukaan Section -->
     <table width="100%" border="0" cellspacing="0" cellpadding="0">
         <tr>
             <td align="center">
-                <table width="100%" border="0" cellspacing="0" cellpadding="20">
-                    <tr>
-                        <td align="center">
-                            <table width="800" height="600" border="0" cellspacing="0" cellpadding="0">
-                                <tr>
-                                    <td>
-                                        <!-- TradingView Widget BEGIN -->
-                                        <div class="tradingview-widget-container" style="height:100%;width:100%">
-                                            <div class="tradingview-widget-container__widget" style="height:calc(100% - 32px);width:100%"></div>
-                                            <div class="tradingview-widget-copyright">
-                                                <a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank">
-                                                    <span class="blue-text">Track all markets on TradingView</span>
-                                                </a>
-                                            </div>
-                                            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
-                                            {
-                                                "autosize": true,
-                                                "symbol": "CAPITALCOM:GOLD",
-                                                "interval": "W",
-                                                "timezone": "Asia/Jakarta",
-                                                "theme": "light",
-                                                "style": "1",
-                                                "locale": "en",
-                                                "hide_top_toolbar": true,
-                                                "allow_symbol_change": false,
-                                                "save_image": false,
-                                                "calendar": false,
-                                                "hide_volume": true,
-                                                "support_host": "https://www.tradingview.com"
-                                            }
-                                            </script>
-                                        </div>
-                                        <!-- TradingView Widget END -->
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                </table>
+                <a href="#media">
+                    <img src="landingpg.svg" alt="Landing Image" width="100%">
+                </a>
             </td>
         </tr>
     </table>
+
+    <div id="media">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td align="center">
+                <video src="media.mp4" width="100%" autoplay loop muted></video>
+            </td>
+        </tr>
+    </table>
+    </div>
+     <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td align="center">
+                <a href="collections.html">
+                    <img src="seecol.png" alt="Collections" width="100%">
+                </a>
+            </td>
+        </tr>
+    </table>
+
+
+
 </body>
 </html>
