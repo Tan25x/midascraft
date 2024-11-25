@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Buy Now - Midas Craft</title>
+</head>
+<body bgcolor="black" text="white" width="1920" height="1080">
+    <header>
+        <table width="100%" bgcolor="white" cellpadding="10">
+            <tr>
+                <td align="left">
+                    <a href="index.html">
+                        <img src="logo.svg" alt="Home" width="108" height="60">
+                    </a>
+                </td>
+                <td align="right">
+                    <a href="about.html"><font face="Poppins, sans-serif" color="black" size="+2">About Us</font></a>&nbsp;&nbsp;
+                    <a href="collections.html"><font face="Poppins, sans-serif" color="black" size="+2">Collections</font></a>&nbsp;&nbsp;
+                    <a href="reviews.html"><font face="Poppins, sans-serif" color="black" size="+2">Reviews</font></a>&nbsp;&nbsp;
+                    <a href="buy.html"><font face="Poppins, sans-serif" color="black" size="+2"><b>Buy Now</b></font></a>&nbsp;&nbsp;
+                </td>
+            </tr>
+        </table>
+    </header>
+    <br><br><br><br>
+    <center>
+        <table width="70%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td align="center">
+                    <img src="order.png" alt="Order Form" width="100%">
+                </td>
+            </tr>
+        </table>
+        <form action="#" method="POST">
+            <table>
+                <tr>
+                    <td colspan="2"><h3><font face="Poppins, sans-serif" color="white">📝 Order Form 📝</font></h3></td>
+                </tr>
+                <tr>
+                    <td><font face="Poppins, sans-serif" color="white">👤 First Name:</font></td>
+                    <td><font face="Poppins, sans-serif" color="white">👤 Last Name:</font></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="firstname" placeholder="Enter your first name"></td>
+                    <td><input type="text" name="lastname" placeholder="Enter your last name"></td>
+                </tr>
+                <tr>
+                    <td><font face="Poppins, sans-serif" color="white">📱 Phone Number:</font></td>
+                    <td><input type="text" name="number" placeholder="Enter your phone number"></td>
+                </tr>
+                <tr>
+                    <td><font face="Poppins, sans-serif" color="white">🏠 Address:</font></td>
+                    <td><input type="text" name="address" placeholder="Enter your address"></td>
+                </tr>
+                <tr>
+                    <td><font face="Poppins, sans-serif" color="white">📦 Order Type:</font></td>
+                    <td><font face="Poppins, sans-serif" color="white">
+                        <input type="radio" id="normal" name="ordertype" value="Normal">
+                        <label for="normal">Normal</label>
+                        <input type="radio" id="custom" name="ordertype" value="Custom ">
+                        <label for="custom">Custom</label>
+                    </font>
+                    </td>
+                </tr>
+                <tr>
+                    <td><font face="Poppins, sans-serif" color="white">💎 Product Type:</font></td>
+                    <td>
+                        <select id="agama" name="agama">
+                            <option value="" disabled selected>Select your product</option>
+                            <option value="Fine Gold">✨ Fine Gold</option>
+                            <option value="Necklaces">⛓️ Necklaces</option>
+                            <option value="Grillz">🦷 Grillz</option>
+                            <option value="Watches">⌚ Watches</option>
+                            <option value="Custom Wrap">🏎️ Custom Wrap</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>          
+                    <td><label><font face="Poppins, sans-serif" color="white">📝 Additional Information:</font></label></td>                   
+                    <td><textarea id="text" name="text" rows="4" cols="30" placeholder="Enter additional information"></textarea></td>               
+                </tr> 
+                <tr>                  
+                    <td colspan="2" align="center">                      
+                        <input type="submit" value="✅ Submit" style="font-family: 'Poppins', sans-serif">                       
+                        <input type="reset" value="🔄 Reset" style="font-family: 'Poppins', sans-serif">                  
+                    </td>             	
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+</html>
